@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(247, 206, 239, 0.977);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+#myheading{
+    padding:10px 10px;
+    font-size: 3.5em;
+    color: rgb(239, 61, 195);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid rgb(235, 87, 151);
+    border-radius: 50px;   
+    background-color: rgb(240, 222, 235);   
+}
+#count{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(239, 61, 195);
+    text-shadow: 2px 2px 2px rgb(78, 0, 58);
+    margin-bottom: 35px;
+}
+#controls{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+#controls button{
+    font-size: 1.5em;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    color:  rgb(231, 222, 228);
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 4px 10px rgb(106, 105, 105);
+}
+#mystart{
+    background-color: rgb(239, 61, 195);
+}
+#mystart:hover{
+    background-color: rgb(232, 7, 176);
+}
+#mystop{
+    background-color: rgb(233, 18, 18);
+}
+#mystop:hover{
+    background-color: rgb(232, 70, 70);
+}
+#myreset{
+    background-color: rgb(112, 1, 91);
+}
+#myreset:hover{
+    background-color: rgb(191, 6, 212);
+}
+#controls button:hover{
+    transform: translateY(5px);
+    box-shadow: 0 4px 10px rgb(83, 83, 83);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
